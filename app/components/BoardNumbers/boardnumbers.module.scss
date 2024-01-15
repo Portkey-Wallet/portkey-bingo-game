@@ -1,0 +1,75 @@
+.wrapper {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 107px;
+  position: relative;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 7%;
+  top: 16%;
+  height: 40%;
+}
+
+.finished {
+  .position {
+    top: 26%;
+  }
+}
+
+.pc {
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  background-image: url('../../../public/numbers_pc.png');
+  margin-bottom: 20px;
+  position: relative;
+
+  .position {
+    margin-left: 15%;
+    margin-right: 11%;
+  }
+
+  &.finished {
+    background-image: url('../../../public/numbers_pc_win.png');
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 64.3rem;
+    height: 23rem;
+    top: -2rem;
+    background-size: 100% 100%;
+  }
+
+  &.small {
+    background-image: url('../../../public/numbers_pc_win.png');
+
+    .position {
+      position: absolute;
+      margin: 0;
+      width: 74%;
+      height: 50%;
+      left: 15%;
+      top: 22%;
+    }
+  }
+}
+
+.mobile {
+  background-image: url('../../../public/numbers_mobile.png');
+  margin-bottom: 20px;
+
+  .position {
+    margin-left: 17%;
+    margin-right: 13%;
+  }
+
+  &.finished {
+    background-image: url('../../../public/numbers_mobile_win.png');
+  }
+}

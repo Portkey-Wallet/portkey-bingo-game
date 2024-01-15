@@ -1,0 +1,17 @@
+<svg
+  width="67"
+  height="67"
+  viewBox="0 0 67 67"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  style="width: 67px; height: 67px;"
+  preserveAspectRatio="none"
+>
+  <rect width="67" height="67" rx="5" fill="#8F2D02"></rect>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M0.0656822 4.1875C0.0224692 4.45194 0 4.72334 0 5V62C0 64.7614 2.23858 67 5 67H62C62.2767 67 62.5481 66.9775 62.8125 66.9343V7.1875C62.8125 5.53065 61.4694 4.1875 59.8125 4.1875H0.0656822Z"
+    fill="#FFA432"
+  ></path>
+</svg>

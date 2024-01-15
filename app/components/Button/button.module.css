@@ -1,0 +1,25 @@
+.btn {
+  border: 0;
+  background-color: transparent;
+  transform-style: preserve-3d;
+  transition: all 75ms cubic-bezier(0, 0, 1, 1);
+  background-size: 100% 100%;
+}
+
+.btn:active {
+  transform: translate(0, 0.375em);
+}
+
+.blueBtn {
+  background-image: url('../../../public/gradient_button_blue_mobile.svg');
+}
+.orangeBtn {
+  background-image: url('../../../public/gradient_button_orange_mobile.svg');
+}
+
+.blueBtn__pc {
+  background-image: url('../../../public/gradient_button_blue.svg');
+}
+.orangeBtn__pc {
+  background-image: url('../../../public/gradient_button_orange.svg');
+}

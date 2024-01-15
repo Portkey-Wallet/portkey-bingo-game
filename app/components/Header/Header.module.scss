@@ -1,0 +1,150 @@
+@import '../../styles/variables.scss';
+
+.mobile {
+  position: absolute;
+  top: 1.6rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 100;
+
+  .accountWrapper {
+    height: 3rem;
+    width: 15rem;
+    background-image: url('../../../public/button_bg.png');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 0.75rem;
+    margin-left: 1.2rem;
+
+    .account {
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.8rem;
+      color: #000000;
+    }
+
+    .copyIcon svg {
+      @include button-effect;
+      height: 2.2rem;
+      width: 2.2rem;
+    }
+  }
+}
+.pc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .dashboard_accountHeader {
+    width: 82.1rem;
+    height: 10rem;
+    margin-left: 2.3rem;
+    margin-right: 2.2rem;
+  }
+  .accountHeader {
+    width: 100% !important;
+  }
+}
+
+.pcTokenCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem 0 12.3rem;
+
+  width: 49.4rem;
+  height: 10rem;
+  background-image: url('../../../public/balance_pc.png');
+  background-size: 100% 100%;
+
+  .tokenWrapper {
+    display: flex;
+    align-items: center;
+
+    .token {
+      color: #000000;
+      font-weight: 400;
+      font-size: 2.4rem;
+      margin-left: 1rem;
+    }
+
+    svg {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+  .refresh {
+    @include button-effect;
+    svg {
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+  }
+}
+
+.mobileTokenCard {
+  background-size: 100% 100%;
+  background-image: url('../../../public/button_bg.png');
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3rem;
+  width: 13rem;
+  padding-left: 0.6rem;
+  margin-left: 1.2rem;
+
+  .tokenWrapper {
+    display: flex;
+    align-items: center;
+
+    .token {
+      color: #000000;
+      font-weight: 400;
+      font-size: 1.2rem;
+      margin-left: 0.4rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+.mobileAccountSyncInfo {
+  margin-top: 3.5rem;
+  :global {
+    .portkey-ant-message-notice-content {
+      background: #ffd812;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 1.2rem;
+      color: white;
+      padding: 0.5rem;
+    }
+  }
+}
+
+.pcAccountSyncInfo {
+  margin-top: 10rem;
+  :global {
+    .portkey-ant-message-notice-content {
+      background: #ffd812;
+      border-radius: 8px;
+      width: 90%;
+      font-size: 1.4rem;
+      color: white;
+      padding: 1rem;
+    }
+  }
+}

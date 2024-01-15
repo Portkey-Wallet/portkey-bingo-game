@@ -1,0 +1,118 @@
+.mobile {
+  padding: 2rem;
+  .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .titleWrapper {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #000000;
+    .winLabel {
+      float: left;
+      margin-left: 9.5rem;
+      font-size: 0.8rem;
+      line-height: 0.9rem;
+      padding: 0.3rem 0.9rem;
+      background: #e2efff;
+      border-radius: 5px;
+      color: #2e6bc7;
+      margin-right: -4px;
+    }
+    .winRatio {
+      color: #000000;
+      margin-left: 0.4rem;
+    }
+  }
+  .contentWrapper {
+    height: 33rem;
+    overflow: auto;
+
+    .stepTitle {
+      padding-top: 2rem;
+    }
+    .content {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      margin-bottom: 1rem;
+      color: #707070;
+    }
+  }
+}
+
+.pc {
+  padding: 8rem 11rem 4rem 13rem;
+  .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .titleWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 28rem;
+    .winLabel {
+      font-size: 2rem;
+      line-height: 2.3rem;
+      padding: 0.8rem 3.6rem;
+      background: #e2efff;
+      border-radius: 10px;
+      margin-left: 2.8rem;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      text-align: center;
+      color: #2e6bc7;
+    }
+    .winRatio {
+      color: #000000;
+      margin-left: 0.4rem;
+    }
+  }
+  .contentWrapper {
+    height: 33rem;
+    overflow: auto;
+
+    .stepTitle {
+      padding-top: 2rem;
+    }
+    .content {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      margin-bottom: 1.4rem;
+      color: #707070;
+    }
+  }
+
+  .contentWrapper::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 1rem;
+  }
+  .contentWrapper::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+}

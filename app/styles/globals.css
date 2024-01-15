@@ -1,0 +1,31 @@
+.verifier-account-wrapper .password-wrapper .adm-passcode-input-cell {
+  max-width: calc(16% - 13px);
+}
+.adm-passcode-input-cell-container,
+.adm-passcode-input-seperated,
+.ant-modal-body {
+  max-width: 100%;
+}
+
+@font-face {
+  src: url('../../public/Roboto-Regular.ttf');
+  font-family: Roboto;
+}
+
+p {
+  margin: 0;
+}
+
+.portkey-ui-base-modal .portkey-ant-modal-body .unlock-body .submit-btn {
+  height: unset !important;
+}
+
+.portkey-ant-modal,
+.aelf-web-login.aelf-extra-wallets .title,
+.aelf-web-login.aelf-extra-wallets .plugin-entry .name {
+  font-family: Roboto !important;
+}
+
+.set-pin-wrapper .set-pin-content .portkey-ant-form-vertical .submit-btn-form-item {
+  position: unset !important;
+}

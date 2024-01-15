@@ -1,0 +1,149 @@
+.defaultWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.initTip {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.title__img__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.test__tag__wrapper {
+  position: absolute;
+  right: 0;
+  background-size: 100% 100%;
+  background-image: url('../../../public/test_sign.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    color: #000000;
+  }
+}
+
+.pc {
+  .defaultBtn {
+    margin-top: 12rem;
+    width: 40rem;
+    height: 10rem;
+  }
+
+  .defaultWrapper {
+    margin-top: 13.7vh;
+    .buttonPlayImg {
+      width: 24rem;
+      height: 4.4rem;
+      margin-right: 2rem;
+    }
+    .buttonUnlockImg {
+      width: 15rem;
+      height: 4.6rem;
+    }
+  }
+
+  .initTip {
+    width: 36.5rem;
+    height: 3rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-top: 3.6rem;
+
+    img {
+      width: 3rem;
+      height: 3rem;
+      margin-right: 1.4rem;
+    }
+  }
+
+  .logo {
+    width: auto;
+    height: 36.7rem;
+  }
+
+  .test__tag__wrapper {
+    height: 5.66rem;
+    width: 10.6rem;
+    top: 9.2rem;
+
+    &__content {
+      font-size: 2.4rem;
+      line-height: 2.7rem;
+      margin-bottom: 0.8rem;
+    }
+  }
+}
+
+.mobile {
+  .defaultBtn {
+    margin-top: 15.4vw;
+    width: 22rem;
+    height: 6rem;
+  }
+
+  .defaultWrapper {
+    margin-top: 22vh;
+    .buttonPlayImg {
+      width: 16rem;
+      height: 2.9rem;
+      margin-right: 1rem;
+    }
+    .buttonUnlockImg {
+      width: 10rem;
+      height: 3rem;
+    }
+  }
+
+  .initTip {
+    margin-top: 4.2vw;
+    font-size: 12px;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+
+  .logo {
+    width: 80vw;
+  }
+
+  .test__tag__wrapper {
+    height: 2.88rem;
+    width: 5.6rem;
+    top: 3.6rem;
+
+    &__content {
+      font-size: 1.2rem;
+      margin-bottom: 0.4rem;
+      z-index: 10;
+    }
+  }
+}
+
+.disconnected {
+  text-align: center;
+}
+
+.message {
+  margin-top: 15rem;
+  :global {
+    .portkey-ant-message-notice-content {
+      border: #2e6bc7 1px solid;
+      border-radius: 5px;
+      max-width: 60rem;
+    }
+  }
+}

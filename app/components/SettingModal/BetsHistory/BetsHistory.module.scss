@@ -1,0 +1,272 @@
+.mobile {
+  .betListWrapper {
+    width: 100%;
+  }
+
+  .betListWrapper::-webkit-scrollbar {
+    background-color: #ebebeb;
+    width: 0.5rem;
+  }
+  .betListWrapper::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+
+  .betDate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    margin: 0.6rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #707070;
+  }
+  .collapse {
+    margin-bottom: 0.4rem;
+  }
+  .betResultIcon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .arrow {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    svg {
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+
+  :global {
+    .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header {
+      padding: 0;
+    }
+    .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+      visibility: hidden;
+    }
+    .ant-collapse-content > .ant-collapse-content-box {
+      padding: 0;
+    }
+  }
+}
+
+.pc {
+  .betDate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    margin: 0.6rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .collapse {
+    margin-bottom: 1rem;
+    border-radius: 16px;
+    .pc {
+      padding: 0 3rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 8rem;
+    }
+  }
+  .win {
+    background: #d1e4fd;
+  }
+  .lose {
+    background: #f2dda7;
+  }
+
+  .betResultIcon svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+  }
+
+  .arrow {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
+
+  :global {
+    .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header {
+      padding: 0;
+    }
+    .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+      visibility: hidden;
+    }
+  }
+}
+
+.betTransaction {
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 2.1rem;
+  font-family: 'Roboto';
+  font-style: normal;
+
+  .betResult {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+
+  .loseBetType {
+    padding: 0.7rem 0.6rem 0.5rem 1.2rem;
+    width: 9rem;
+    background: #ffcb9b;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  .winBetType {
+    padding: 0.7rem 0.6rem 0.5rem 1.2rem;
+    width: 9rem;
+    background: #c5dfff;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 2.6rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #707070;
+    margin-right: 0.4rem;
+  }
+
+  .betReturn {
+    padding-left: 2rem;
+  }
+}
+.winBg {
+  background: #e2efff;
+}
+
+.loseBg {
+  background: #f7ebb3;
+}
+
+.winColor {
+  color: #2e6bc7;
+}
+
+.loseColor {
+  color: #d63333;
+}
+
+.cardWrapper {
+  .cardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 5px;
+    .cardRight {
+      display: flex;
+      align-items: center;
+      .cardRightText {
+        margin-right: 0.9rem;
+      }
+    }
+  }
+
+  .cardBody {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #707070;
+    padding: 0.8rem 1.6rem;
+    .cardRow {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.transactionDetailMobile {
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 1.1rem 1.6rem;
+  margin-bottom: 1rem;
+  .playLabel {
+    color: #000000;
+    font-size: 1.2rem;
+  }
+  .transactionRow {
+    display: flex;
+    justify-content: space-between;
+    .label {
+      white-space: nowrap;
+    }
+  }
+}
+
+.transactionDetailPc {
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #707070;
+  .playLabel {
+    color: #000000;
+    font-size: 1.6rem;
+  }
+  .transactionRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+    .label {
+      white-space: nowrap;
+    }
+  }
+  .titleRow {
+    margin-top: 0;
+  }
+}
+.link {
+  text-decoration: underline;
+}
+
+.opened {
+  svg {
+    rotate: 90deg;
+  }
+}
+
+.loading {
+  text-align: center;
+}

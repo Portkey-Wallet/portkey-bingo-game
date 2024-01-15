@@ -1,0 +1,53 @@
+.mobile {
+  background-image: url('../../../public/frame_no_icon.png');
+  background-size: 100% 100%;
+  width: 33.5rem !important;
+  height: 46.1rem;
+  .closeIcon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  :global {
+    .ant-modal-body {
+      padding: 2.4rem;
+    }
+    .ant-modal-content {
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+    }
+    .ant-modal-close-x {
+      height: 3.2rem;
+      width: 3.2rem;
+      line-height: unset;
+    }
+  }
+}
+.pc {
+  background-image: url('../../../public/frame_pc_1.png');
+  background-size: 100% 100%;
+  width: 108.2rem !important;
+  height: 59.2rem;
+
+  .closeIcon {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  :global {
+    .ant-modal-body {
+      padding: 2.4rem;
+    }
+    .ant-modal-content {
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+    }
+    .ant-modal-close-x {
+      width: 6.4rem;
+      height: 6.4rem;
+      line-height: unset;
+    }
+  }
+}

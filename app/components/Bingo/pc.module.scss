@@ -1,0 +1,142 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.artWord {
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  text-align: center;
+  font-family: Helvetica;
+  color: #ffffff;
+  -webkit-text-stroke: 0.1rem #000000;
+  text-shadow: 0px 0.2rem 0px #000000;
+}
+
+.bingoBtn {
+  margin-top: 2.6rem;
+  width: 22.4rem;
+  height: 10rem;
+}
+
+.bingoContent {
+  &Wrapper {
+    position: relative;
+    height: 67.1rem;
+    width: 132.2rem;
+    display: flex;
+    margin-top: 23.4rem;
+    margin-bottom: 10rem;
+  }
+
+  &__betBtn {
+    position: absolute;
+    bottom: 12.2rem;
+    width: 22.4rem;
+    height: 10rem;
+    font-weight: 900;
+    font-size: 4.8rem;
+
+    &_p {
+      font-size: 4.8rem;
+      font-weight: 900;
+    }
+  }
+
+  &__bg {
+    margin-top: 7.45rem;
+    width: 132.2rem;
+    height: 59.2rem;
+    background-image: url('../../../public/frame_pc_bingo.png');
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__boardNumbers {
+    flex-grow: 1;
+    width: 50%;
+  }
+
+  &__fee {
+    position: absolute;
+    bottom: 8rem;
+  }
+
+  &__wrapper {
+    margin-left: 13.7rem;
+    margin-right: 13.7rem;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.bingoTips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bingoText {
+  margin-top: 2.8rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span:nth-child(odd) {
+    font-weight: 500;
+    font-size: 4rem;
+    margin-right: 1.6rem;
+  }
+
+  span:nth-child(3) {
+    margin-left: 30px;
+  }
+
+  span:nth-child(even) {
+    font-weight: 500;
+    font-size: 4rem;
+    border-radius: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.9rem;
+    width: 29.4rem;
+    height: 6rem;
+  }
+}
+
+.contentWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.content__bg {
+  width: 132.2rem;
+  height: 80.5rem;
+  background-image: url('../../../public/frame_pc.png');
+  background-size: 100% 100%;
+}
+
+.contentBingoInit__wrapper {
+  margin-top: 38.1rem;
+  margin-left: 13.7rem;
+  margin-right: 13.7rem;
+  margin-bottom: 7rem;
+  height: 34.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

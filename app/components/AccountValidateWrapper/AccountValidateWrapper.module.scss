@@ -1,0 +1,10 @@
+.message {
+  margin-top: 15rem;
+  :global {
+    .portkey-ant-message-notice-content {
+      border: #2e6bc7 1px solid;
+      border-radius: 5px;
+      max-width: 60rem;
+    }
+  }
+}

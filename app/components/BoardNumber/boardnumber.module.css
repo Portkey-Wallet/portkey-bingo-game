@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.number {
+  width: 80%;
+  height: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+._0 {
+  background-image: url('../../../public/question2.png');
+}
+
+._1 {
+  background-image: url('../../../public/1.png');
+}
+
+._2 {
+  background-image: url('../../../public/2.png');
+}
+
+._3 {
+  background-image: url('../../../public/3.png');
+}
+
+._4 {
+  background-image: url('../../../public/4.png');
+}
+
+._5 {
+  background-image: url('../../../public/5.png');
+}
+
+._6 {
+  background-image: url('../../../public/6.png');
+}

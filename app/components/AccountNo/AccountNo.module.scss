@@ -1,0 +1,16 @@
+.accountNo {
+  display: flex;
+  align-items: center;
+  .accountText {
+    margin-right: 0.6rem;
+  }
+  .accountCopy {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+  }
+}

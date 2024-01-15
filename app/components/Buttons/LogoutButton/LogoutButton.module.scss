@@ -1,0 +1,25 @@
+.mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 4.8rem;
+  background-color: #ffd812;
+  border-radius: 34.8px;
+  border: 1.5px solid #000000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.pc {
+  cursor: pointer;
+  padding: 1.4rem 2.9rem;
+  background: #ffd812;
+  border: 0.35rem solid #000000;
+  border-radius: 4.35rem;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  margin-left: 3.4rem;
+  white-space: nowrap;
+}

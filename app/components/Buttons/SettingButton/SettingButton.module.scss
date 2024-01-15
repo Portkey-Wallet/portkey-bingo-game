@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+.mobile {
+  .setting {
+    @include button-effect;
+    height: 3rem;
+  }
+}
+.pc {
+  .setting {
+    width: 10.8rem;
+    height: 10rem;
+    margin-right: 2rem;
+    @include button-effect;
+  }
+}

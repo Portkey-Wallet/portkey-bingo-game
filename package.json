@@ -1,0 +1,64 @@
+{
+  "name": "portkey-bingo-game",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_PUBLIC_APP_ENV=development next dev",
+    "build": "next build",
+    "build-dev": "NEXT_PUBLIC_APP_ENV=development next build",
+    "start": "APP_ENV=production next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.14",
+    "@portkey/graphql": "^1.0.0-alpha.4",
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@xstate/inspect": "^0.8.0",
+    "@xstate/react": "^3.2.2",
+    "aelf-web-login": "1.1.5-alpha.3",
+    "antd": "4.24.4",
+    "bignumber.js": "^9.1.1",
+    "clipboard": "^2.0.11",
+    "clsx": "^1.2.1",
+    "copy-to-clipboard": "^3.3.3",
+    "dayjs": "^1.11.7",
+    "eslint": "8.35.0",
+    "eslint-config-next": "^13.4.6",
+    "graphql": "^16.6.0",
+    "i18next": "^22.4.15",
+    "next": "^13.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-qrcode-logo": "^2.9.0",
+    "swr": "^2.1.5",
+    "typescript": "4.9.5",
+    "xstate": "^4.37.2"
+  },
+  "devDependencies": {
+    "@sentry/nextjs": "^7.47.0",
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "next-transpile-modules": "^10.0.0",
+    "prettier": "^2.8.4",
+    "sass": "^1.62.1",
+    "vconsole": "^3.15.0"
+  },
+  "resolutions": {
+    "query-string": "^7.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

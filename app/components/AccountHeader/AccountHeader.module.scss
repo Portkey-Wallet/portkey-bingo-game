@@ -1,0 +1,132 @@
+.mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 26rem;
+  height: 3.7rem;
+  padding: 0 1rem 0 4.6rem;
+  background-image: url('../../../public/account_mobile.png');
+  background-size: 100% 100%;
+  .accountWrapper {
+    display: flex;
+    align-items: center;
+    .accountNo {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+  }
+
+  .buttonsWrapper {
+    display: flex;
+    align-items: center;
+    .accountCopyIcon {
+      display: flex;
+      align-items: center;
+      height: 3rem;
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+    .accountQRIcon {
+      border: 0;
+      background-color: transparent;
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      background-image: url('../../../public/qrcode.png');
+      background-size: 100% 100%;
+      flex-shrink: 0;
+      margin-right: 0.4rem;
+    }
+    .accountRedirectIcon {
+      display: flex;
+      align-items: center;
+      height: 3rem;
+      svg {
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+    }
+  }
+}
+
+.pc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 75rem;
+  height: 10rem;
+  padding: 0 3rem 0 12rem;
+  background-image: url('../../../public/account.png');
+  background-size: 100% 100%;
+
+  .accountWrapper {
+    display: flex;
+    align-items: center;
+    .accountText {
+      color: #0a0a0a;
+      font-weight: 900;
+      font-size: 3.2rem;
+      margin-right: 2rem;
+    }
+    .accountNo {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.8rem;
+    }
+  }
+
+  .buttonsWrapper {
+    display: flex;
+    align-items: center;
+    .accountCopyIcon {
+      display: flex;
+      align-items: center;
+      height: 5.4rem;
+      svg {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
+    .accountQRIcon {
+      border: 0;
+      background-color: transparent;
+      width: 5.4rem;
+      height: 5.4rem;
+      cursor: pointer;
+      background-image: url('../../../public/qrcode.png');
+      background-size: 100% 100%;
+      flex-shrink: 0;
+      margin-right: 1rem;
+    }
+    .accountRedirectIcon {
+      display: flex;
+      align-items: center;
+      height: 5.4rem;
+      svg {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+  }
+}
+
+.btn {
+  width: auto;
+  height: 9.25vh;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  transform-style: preserve-3d;
+  transition: all 75ms cubic-bezier(0, 0, 1, 1);
+}
+
+.btn:active {
+  transform: translate(0, 0.375em);
+}

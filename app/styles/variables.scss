@@ -1,0 +1,12 @@
+@mixin button-effect {
+  width: auto;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  transform-style: preserve-3d;
+  transition: all 75ms cubic-bezier(0, 0, 1, 1);
+
+  &:active {
+    transform: translate(0, 0.375em);
+  }
+}
